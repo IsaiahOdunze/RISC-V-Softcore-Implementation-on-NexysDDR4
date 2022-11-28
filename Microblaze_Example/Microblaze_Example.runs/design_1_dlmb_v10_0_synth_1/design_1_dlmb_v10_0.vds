@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 16 15:48:34 2022
+# Process ID: 14288
+# Current directory: C:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.runs/design_1_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log design_1_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dlmb_v10_0.tcl
+# Log file: C:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.runs/design_1_dlmb_v10_0_synth_1/design_1_dlmb_v10_0.vds
+# Journal file: C:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.runs/design_1_dlmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_dlmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_dlmb_v10_0, cache-ID = 56e66a0f5898aa21.
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 16 15:48:41 2022...

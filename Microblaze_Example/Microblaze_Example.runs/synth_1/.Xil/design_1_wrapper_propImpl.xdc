@@ -1,0 +1,56 @@
+set_property SRC_FILE_INFO {cfile:c:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc rfile:../../../Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc id:1 order:EARLY scoped_inst:design_1_i/clk_wiz_0} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/design_1_mig_7series_0_0_in_context.xdc rfile:../../../Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/design_1_mig_7series_0_0_in_context.xdc id:2 order:EARLY scoped_inst:design_1_i/mig_7series_0} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc rfile:../../../Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc id:3 order:EARLY scoped_inst:design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc rfile:../../../Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc id:4 order:EARLY scoped_inst:design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc rfile:../../../Microblaze_Example.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc id:5 order:EARLY scoped_inst:design_1_i/mdm_1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/IsaiahOdunze/Microblaze_Example/Microblaze_Example.srcs/constrs_1/new/Nexys4DDR.xdc rfile:../../../Microblaze_Example.srcs/constrs_1/new/Nexys4DDR.xdc id:6} [current_design]
+current_instance design_1_i/clk_wiz_0
+set_property src_info {type:SCOPED_XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 [get_ports -no_traverse {}]
+set_property src_info {type:SCOPED_XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+create_generated_clock -source [get_ports clk_in1] -edges {1 2 3} -edge_shift {0.000 -2.500 -5.000} [get_ports {}]
+current_instance
+current_instance design_1_i/mig_7series_0
+set_property src_info {type:SCOPED_XDC file:2 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:2 line:4 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:2 line:6 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:2 line:8 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.549 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:2 line:10 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:2 line:12 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+current_instance
+current_instance design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr
+set_property src_info {type:SCOPED_XDC file:3 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+current_instance
+current_instance design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr
+set_property src_info {type:SCOPED_XDC file:4 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 12.308 [get_ports {}]
+current_instance
+current_instance design_1_i/mdm_1
+set_property src_info {type:SCOPED_XDC file:5 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 33.333 [get_ports {}]
+set_property src_info {type:SCOPED_XDC file:5 line:4 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 33.333 [get_ports {}]
+current_instance
+set_property src_info {type:XDC file:6 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V10 [get_ports enable_0]
+set_property src_info {type:XDC file:6 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V11 [get_ports en_led_0]
+set_property src_info {type:XDC file:6 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L16 [get_ports {sw_in_0[2]}]
+set_property src_info {type:XDC file:6 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M13 [get_ports {sw_in_0[1]}]
+set_property src_info {type:XDC file:6 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R15 [get_ports {sw_in_0[0]}]
+set_property src_info {type:XDC file:6 line:14 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J13 [get_ports {led_en_0[2]}]
+set_property src_info {type:XDC file:6 line:15 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K15 [get_ports {led_en_0[1]}]
+set_property src_info {type:XDC file:6 line:16 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N14 [get_ports {led_en_0[0]}]
